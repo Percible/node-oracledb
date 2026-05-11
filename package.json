@@ -34,7 +34,6 @@
     "mocha": "10.2.0"
   },
   "scripts": {
-    "prepare": "git submodule update --init --recursive",
     "test": "mocha --config test/opts/.mocharc.yaml",
     "posttest": "node test/opts/version.js",
     "buildbinary": "node package/buildbinary.js",
